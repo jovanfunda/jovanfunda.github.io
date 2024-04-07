@@ -1,0 +1,85 @@
+.course-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+mat-form-field {
+    border-left: 20px;
+    margin-right: 20px;
+}
+
+.search-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.search-bar {
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.course-info {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+}
+  
+.course {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+  
+.course-image {
+    max-width: 100%;
+    height: auto;
+    padding-right: 30px;
+}
+  
+.course-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+  
+.professor {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.description {
+    font-size: 1em;
+    color: #555;
+}
+
+.enroll-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+  
+.enroll-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,16 @@
+<h2 class="title">{{ course.name }}</h2>
+
+<div class="link-list">
+  <div (click)="redirectToDetails()" class="item">
+    <h2 class="name">{{ 'CHANGE_COURSE_ATTRIBUTES' | translate }}</h2>
+  </div>
+  <div (click)="redirectToCreateLectures()" class="item">
+    <h2 class="name">{{ 'CREATE_LECTURE' | translate }}</h2>
+  </div>
+  <div (click)="createTest()" class="item">
+    <h2 class="name">{{ 'CREATE_TEST' | translate }}</h2>
+  </div>
+  <div (click)="courseTestData()" class="item">
+    <h2 class="name">{{ 'COURSE_TEST_DATA' | translate }}</h2>
+  </div>
+</div>

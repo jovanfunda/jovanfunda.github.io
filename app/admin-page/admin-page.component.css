@@ -1,0 +1,23 @@
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.styled-link {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+  
+.styled-link:hover {
+    background-color: #e9ecef;
+}
+
+.window {
+    font-size: 1.2em;
+    margin: 10px 0;
+}

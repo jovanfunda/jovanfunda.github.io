@@ -1,0 +1,20 @@
+<div class="col-md-12">
+  <div class="card card-container">
+    <form *ngIf="!authService.isLoggedIn">
+      <div class="form-group">
+        <label for="email">{{ 'EMAIL' | translate}}</label>
+        <input class="form-control" type="text" [(ngModel)]="email" name="email"/>
+      </div>
+      <div>
+        <label for="password" >{{ 'PASSWORD' | translate }}</label>
+        <input class="form-control" type="password" [(ngModel)]="password" name="password"/>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary btn-block" (click)="login()">
+          {{ 'LOG_IN' | translate }}
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>
